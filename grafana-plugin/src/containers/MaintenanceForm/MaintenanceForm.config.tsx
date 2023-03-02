@@ -49,6 +49,18 @@ export const form: { name: string; fields: FormItem[] } = {
       extra: {
         options: [
           {
+            value: 300,
+            label: '5 min',
+          },
+          {
+            value: 900,
+            label: '15 min',
+          },
+          {
+            value: 1800,
+            label: '30 min',
+          },
+          {
             value: 3600,
             label: '1 hour',
           },
